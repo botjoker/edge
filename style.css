@@ -107,7 +107,12 @@
 	font-size: 30px;
 	margin-bottom: 25px;
 	text-align: center;
-	text-decoration: underline;
+	text-decoration: none;
+}
+.prices-title span {
+	display: inline-block;
+	border-bottom: 2px solid #000;
+	padding-bottom: 5px;
 }
 .prices {
 
@@ -188,7 +193,39 @@
 	text-decoration: none;
 }
 
+.listen-item {
+	margin-bottom: 20px;
+}
+
+.show-mob {
+	display: none;
+}
+
+.top_logo__header {
+	display: none;
+}
+
 @media (max-width: 991px) {
+
+	.top_logo__header {
+		position: absolute;
+		left: 50%;
+		margin-left: -50px;
+		top: 20px;
+	}
+	.top_logo__header img {
+		width: 100px;
+	}
+
+	.top_logo__header {
+		display: inline-block;
+	}
+	.show-mob {
+		display: block;
+	}
+	.hide-mob {
+		display: none;
+	}
 	.steps-text {
 		height: auto;
 		margin-bottom: 10px;
@@ -276,5 +313,11 @@
 	.question {
 		height: auto;
 		padding-top: 40px;
+	}
+	.question {
+		margin-bottom: 20px;
+	}
+	.questions-block.active {
+		padding-top: 35px;
 	}
 }
