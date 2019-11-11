@@ -1,0 +1,280 @@
+.questions-block {
+	display: none;
+}
+.questions-block.active {
+	display: block;
+}
+.question {
+	text-align: center;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.question-inner {
+	font-size: 25px;
+	line-height: 1.2;
+}
+.questoin-pagination {
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 13px;
+	color: #baa998;
+	width: 100%;
+}
+.p-button-answer {
+	border: 1px solid #000;
+	font-size: 15px;
+	padding: 5px 10px;
+	width: 100%;
+	display: block;
+	margin-bottom: 10px;
+	color: #000;
+}
+
+.fa-instagram {
+	display: none;
+}
+.top-panel {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #FFF;
+	z-index: 222222;
+	height: 70px;
+}
+.top-panel .hamburger {
+	display: none;	
+	position: relative;
+	z-index: 222;
+}
+.top-panel-list {
+	padding-top: 20px;
+	text-align: center;
+}
+.top-panel-list a {
+	display: inline-block;
+	color: #000 !important;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin: 0 20px;
+	text-decoration: none !important;
+}
+.top-panel-list .fa-instagram {
+	display: none;
+}
+.top-video {
+	background: #000;
+	width: 100%;
+	height: 100vh;
+	margin-bottom: 60px;
+	position: relative;
+}
+.top-video video {
+	object-fit: fill;
+}
+.steps {
+	margin-bottom: 40px;
+}
+.steps-text {
+	font-size: 23px;
+	position: relative;
+	height: 330px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.prices-steps {
+	margin-bottom: 40px;
+}
+.prices-steps-number {
+	color: #BAA999;
+	font-size: 80px;
+}
+.prices-steps-text {
+	font-size: 18px;
+	line-height: 1.2;
+	height: 120px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+.prices-title {
+	font-size: 30px;
+	margin-bottom: 25px;
+	text-align: center;
+	text-decoration: underline;
+}
+.prices {
+
+}
+.prices-row {
+	margin-bottom: 40px;
+}
+.prices-h {
+	color: #BAA999;
+	font-size: 40px;
+}
+.prices-vertical {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 300px;
+}
+.prices-text {
+	font-size: 23px;
+}
+
+.center-text {
+	text-align: center;
+}
+.right-text {
+	text-align: right;
+}
+
+.p-button {
+	background: #baa998 none repeat scroll 0 0;
+	border: 1px solid #baa998;
+	color: #fff;
+	height: 40px;
+	padding: 6px 50px;
+	font-size: 17px;
+	display: inline-block;
+	text-decoration: none;
+	line-height: 1.5;
+	cursor: pointer;
+}
+.p-button:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+.test-text {
+	font-size: 23px;
+	line-height: 1.2;
+	margin-bottom: 20px;
+}
+.winner-block {
+	text-align: center;
+	margin-bottom: 40px;
+}
+.winner-card {
+	border: 1px solid #BAA999;
+	padding: 20px;
+	box-sizing: border-box;
+	margin-bottom: 40px;
+}
+.winner-card img {
+	display: block;
+	margin-bottom: 20px;
+}
+.winner-label {
+	display: block;
+	height: 25px;
+	text-align: center;
+}
+.top-video-link {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	top: 50%;
+	color: #FFF;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+@media (max-width: 991px) {
+	.steps-text {
+		height: auto;
+		margin-bottom: 10px;
+		text-align: center;
+		font-size: 18px;
+		line-height: 1.2;
+	}
+	.steps {
+		text-align: center;
+	}
+	.prices-steps-text {
+		height: auto;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.prices-steps-number {
+		text-align: center;
+	}
+	.prices {
+		text-align: center;
+	}
+	.prices-vertical {
+		height: auto;
+		margin-bottom: 20px;
+	}
+	.prices-h {
+		font-size: 25px;
+	}
+	.prices-text {
+		font-size: 15px;
+	}
+	.test {
+		text-align: center;
+	}
+	.top-video {
+		overflow: hidden;
+	}
+	.top-video video {
+		height: 100vh;
+		width: auto;
+	}
+	.top-panel .hamburger {
+		display: block;	
+	}
+	.top-panel-list {
+		display: none;
+	}
+	.top-panel-list.active {
+		padding-top: 20px;
+		text-align: center;
+		height: 100vh;
+		background: #FFF;
+		top: 0;
+		position: fixed;
+		width: 100%;
+		left: 0;
+		padding-top: 140px;
+		box-sizing: border-box;
+		display: block;
+	}
+	.top-panel-list.active a {
+		display: block;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.top-panel-list.active .edgLogo {
+		position: absolute;
+		top: 23px;
+		left: 50%;
+		margin-left: -40px;
+	}
+	.top-panel-list.active .edgLogo img {
+		width: 80px;
+	}
+	.fa-instagram {
+		display: inline-block;
+		font-size: 23px;
+	}
+	.top-video-link {
+		font-size: 18px;
+	}
+	.top-panel-list .fa-instagram {
+		display: inline-block;
+	}
+	.question {
+		height: auto;
+		padding-top: 40px;
+	}
+}
