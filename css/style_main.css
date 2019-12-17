@@ -120,11 +120,13 @@ header .container {
 }
 .top-banner__text1 {
   padding-bottom: 5px;
-  font-size: 18px;
+  font-size: 24px;
+  color: #FFF;
 }
 .top-banner__text2 {
   font-size: 16px;
   padding-bottom: 30px;
+    color: #FFF;
 }
 
 
