@@ -303,6 +303,8 @@ header .container {
 
 .catalog__filter-block {
   padding-bottom: 40px;
+  position: relative;
+  z-index: 2;
 }
 .catalog__filter {
   border-radius: 4px;
@@ -335,6 +337,7 @@ header .container {
 }
 .catalog__filter-list {
   display: none;
+  background: #FFF;
 }
 .catalog__filter.open .catalog__filter-list {
   display: block;
