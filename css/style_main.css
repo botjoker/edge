@@ -579,7 +579,7 @@ a.catalog__pagination-current {
     font-weight: bold;
     position: absolute;
     left: 50%;
-    margin-left: -10px;
+    margin-left: -25px;
     top: 33px;
   }
 
@@ -707,7 +707,7 @@ a.catalog__pagination-current {
     top: 12px;
   }
   .catalog__filter-block-mob-close {
-    
+
   }
   .catalog__category-list-item a {
     padding: 10px 30px;
