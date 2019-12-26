@@ -37,5 +37,16 @@ $('document').ready(function(){
     $('.catalog__filter-block').removeClass('open');
   });
 
+  $('.main-menu-mob__close').click(function(){
+    $('.main-menu-mob').removeClass('open');
+  });
+
+  $('.main-menu-mob__item-hasChildren>a').click(function(){
+    $(this).parent().toggleClass('open');
+  });
+
+  $('.mob-menu-button').click(function(){
+    $('.main-menu-mob').toggleClass('open');
+  });
 
 });
