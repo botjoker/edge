@@ -49,4 +49,14 @@ $('document').ready(function(){
     $('.main-menu-mob').toggleClass('open');
   });
 
+  if ($(window).width() < 992) {
+    $('.product__main-imgs').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: true,
+      
+    });
+  }
+
 });
