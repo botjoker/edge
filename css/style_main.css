@@ -699,6 +699,7 @@ a.catalog__pagination-current {
 @media (max-width: 991px) {
   .product__main-imgs {
       display: block;
+      max-height: 442px;
   }
   .mob-menu-button {
     cursor: pointer;
