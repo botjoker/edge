@@ -504,7 +504,9 @@ a.catalog__pagination-current {
 
 
 
-
+.product-card .new-goods__item-price {
+  font-weight: bold;
+}
 
 
 .product__main-info {
@@ -697,6 +699,9 @@ a.catalog__pagination-current {
   display: none;
 }
 @media (max-width: 991px) {
+  .product__subtitle {
+    font-size: 16px;
+  }
   .product__main-imgs {
       display: block;
       max-height: 442px;
