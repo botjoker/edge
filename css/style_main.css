@@ -350,6 +350,7 @@ header .container {
   width: 15px;
   height: 7px;
   background: url(../img/filter-arr-b.png) no-repeat;
+  background-size: 100%;
 }
 .catalog__filter.current:after {
   background: url(../img/filter-arr-w.png) no-repeat;
@@ -427,23 +428,25 @@ header .container {
   content: '';
   display: block;
   position: absolute;
-  top: 7px;
+  top: 6px;
   left: 0;
-  width: 20px;
-  height: 20px;
+  width: 13px;
+  height: 17px;
   background: url(../img/filter-arr-b.png) no-repeat;
   transform: rotate(90deg);
+  background-size: 100%;
 }
 .catalog__pagination-next::after {
   content: '';
-  display: block;
-  position: absolute;
-  top: 1px;
-  right: -2px;
-  width: 20px;
-  height: 20px;
-  background: url(../img/filter-arr-b.png) no-repeat;
-  transform: rotate(270deg);
+    display: block;
+    position: absolute;
+    top: 6px;
+    right: -2px;
+    width: 13px;
+    height: 17px;
+    background: url(../img/filter-arr-b.png) no-repeat;
+    transform: rotate(270deg);
+    background-size: 100%;
 }
 .catalog__pagination-next {
   margin-left: 27px;
@@ -807,6 +810,7 @@ a.catalog__pagination-current {
     height: 10px;
     background: url(../img/filter-arr-b.png) no-repeat;
     transform: rotate(90deg);
+    background-size: 100%;
   }
   .catalog__mob-panel {
     display: block;
@@ -839,6 +843,7 @@ a.catalog__pagination-current {
     width: 16px;
     height: 10px;
     background: url(../img/filter-arr-b.png) no-repeat;
+    background-size: 100%;
   }
   .catalog__mob-panel-filters {
     float: right;
@@ -853,12 +858,13 @@ a.catalog__pagination-current {
     content: '';
     display: block;
     position: absolute;
-    top: 5px;
+    top: 7px;
     left: 107%;
-    width: 16px;
+    width: 12px;
     height: 10px;
     background: url(../img/filter-arr-b.png) no-repeat;
     transform: rotate(270deg);
+    background-size: 100%;
   }
   .catalog__category-block {
     display: none;
@@ -984,6 +990,7 @@ a.catalog__pagination-current {
     width: 30px;
     height: 30px;
     transform: rotate(90deg);
+    background-size: 100%;
   }
 
   .new-goods__item-title {
@@ -1076,6 +1083,7 @@ a.catalog__pagination-current {
     width: 14px;
     height: 20px;
     background: url(../img/filter-arr-b.png) no-repeat;
+    background-size: 100%;
   }
   .main-menu-mob__item-hasChildren.open:after {
     right: 30px;
